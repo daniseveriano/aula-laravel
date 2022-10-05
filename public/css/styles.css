@@ -1,7 +1,132 @@
+/* General */
 * {
     font-family: 'Roboto', sans-serif;
   }
 
-h1 {
-  color: red;
+body {
+  min-height: 100vh;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+header {
+  background-color: var(--bs-body-bg);
+  border-bottom: 1px solid var(--bs-gray-500);
+}
+
+.row {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.btn-primary {
+  background-color: var(--bs-orange) !important;
+  border: 2px solid var(--bs-orange) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--bs-danger) !important;
+  border: 2px solid var(--bs-danger) !important;
+}
+
+/* navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bs-body-bg);
+  padding: 3px 6px;
+}
+
+.container-fluid  a {
+  color: var(--bs-gray-600);
+}
+
+.container-fluid  a:hover {
+  color: var(--bs-orange);
+}
+
+/* Search Container */
+#search-container {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  padding: 50px;
+  text-align: center;
+}
+
+#search-container h1 {
+  color: var(--bs-white);
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+#search-container form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Events List */
+#events-container {
+  padding: 50px;
+}
+
+#events-container h2 {
+  margin-bottom: 10px;
+}
+
+#events-container .subtitle {
+  color: var(--bs-gray-600);
+  margin-bottom: 30px;
+}
+
+#cards-container {
+  display: flex;
+}
+
+#events-container .card {
+  flex: 1 1 0;
+  max-width: 25%;
+  border-radius: 10px;
+  padding: 0;
+  margin: 5px;
+}
+
+#events-container img {
+  max-height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card .card-date {
+  color: var(--bs-gray-600);
+}
+
+.card .card-title {
+  margin-bottom: 30px;
+  color: var(--bs-gray-900);
+  font-weight: 600;
+}
+
+.card-participants {
+  font-size: 14px;
+  color: var(--bs-gray-600);
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: var(--bs-gray-700);
+  color: var(--bs-white);
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0;
 }
