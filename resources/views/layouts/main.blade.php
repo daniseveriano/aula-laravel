@@ -35,13 +35,13 @@
                             <a href="/" class="nav-link">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/cadastro" class="nav-link">Criar Eventos</a>
+                            <a href="/create" class="nav-link">Criar Eventos</a>
                         </li>
                         <li class="nav-item">
                             <a href="/login" class="nav-link">Entrar</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/login" class="nav-link">Cadastrar</a>
+                            <a href="/contact" class="nav-link">Cadastrar</a>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +50,7 @@
     </header>
     @yield('footer')
     <footer>
-        <p>Todos os direitos reservados - 2022</p>
+        <p>© Todos os direitos reservados - 2022</p>
     </footer>
 </body>
 

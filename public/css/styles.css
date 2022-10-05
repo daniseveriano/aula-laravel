@@ -1,7 +1,7 @@
 /* General */
 * {
-    font-family: 'Roboto', sans-serif;
-  }
+  font-family: 'Roboto', sans-serif;
+}
 
 body {
   min-height: 100vh;
@@ -40,11 +40,11 @@ header {
   padding: 3px 6px;
 }
 
-.container-fluid  a {
+.container-fluid a {
   color: var(--bs-gray-600);
 }
 
-.container-fluid  a:hover {
+.container-fluid a:hover {
   color: var(--bs-orange);
 }
 
@@ -114,6 +114,29 @@ header {
 .card-participants {
   font-size: 14px;
   color: var(--bs-gray-600);
+}
+
+/* Event Create Page */
+#event-create-container {
+  padding: 30px;
+  ;
+}
+
+#event-create-container label {
+  font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+  font-size: 12px;
+
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea  {
+  margin-bottom: 10px;
 }
 
 /* footer */
