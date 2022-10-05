@@ -26,13 +26,16 @@
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Home</a>
+                        <a href="/" class="nav-link">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/cadastro" class="nav-link">Cadastro</a>
+                        <a href="/cadastro" class="nav-link">Criar Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/login" class="nav-link">Login</a>
+                        <a href="/login" class="nav-link">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/login" class="nav-link">Cadastrar</a>
                     </li>
                 </ul>
             </div>
