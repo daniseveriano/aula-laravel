@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('title', 'Eventos')
 @section('header')
-@section('footer')
+@section('content')
 
     <div id="search-container" class="col-md-12">
         <h1>Busque um evento</h1>

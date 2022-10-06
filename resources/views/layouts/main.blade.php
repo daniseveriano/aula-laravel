@@ -16,7 +16,7 @@
     </script>
 </head>
 
-<body>
+<body class="position-relative">
     @yield('header')
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -48,7 +48,13 @@
             </div>
         </nav>
     </header>
-    @yield('footer')
+    @yield('content')
+    @if (session('msg'))
+        <div class="alert alert-success alert-dismissible fade show position-fixed top-0 start-0" role="alert">
+            <strong>{{ session('msg') }}</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
     <footer>
         <p>© Todos os direitos reservados - 2022</p>
     </footer>

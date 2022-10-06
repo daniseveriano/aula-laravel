@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('title', 'Criar Evento')
 @section('header')
-@section('footer')
+@section('content')
 
     <div id="event-create-container" class="col-md-6 offset-md-3">
         <h1>Crie o seu evento</h1>
@@ -13,7 +13,7 @@
             </div>
             <div class="form-group">
                 <label for="title">Cidade:</label>
-                <input type="text" class="form-control" id="city" name="city" placeholder="Nome do evento">
+                <input type="text" class="form-control" id="city" name="city" placeholder="Cidade do evento">
             </div>
             <div class="form-group">
                 <label for="title">O evento é privado?</label>
