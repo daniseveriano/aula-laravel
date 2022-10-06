@@ -105,6 +105,12 @@ header {
   color: var(--bs-gray-600);
 }
 
+ion-icon {
+  font-size: 24px;
+  margin-right: 8px;
+  color: var(--bs-orange);
+}
+
 .card .card-title {
   margin-bottom: 30px;
   color: var(--bs-gray-900);
@@ -137,6 +143,36 @@ header {
 #event-create-container select,
 #event-create-container textarea  {
   margin-bottom: 10px;
+}
+
+/* event page */
+#image-container,
+#info-container {
+  margin-top: 30px;
+}
+
+#image-container img {
+  border-radius: 10px;
+}
+
+#info-container h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#info-container p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#info-container h3,
+#description-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#info-container #event-submit {
+  margin: 20px 0;
 }
 
 /* footer */

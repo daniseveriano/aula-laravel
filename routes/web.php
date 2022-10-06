@@ -9,6 +9,8 @@ Route::get('/create', [EventController::class, 'create']);
 
 Route::post('/events', [EventController::class, 'store']);
 
+Route::get('/{id}', [EventController::class, 'show']);
+
 Route::get('/contact', function () {
     return view('contact');
 });
